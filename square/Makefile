@@ -6,7 +6,6 @@ all:
 
 square: square-main.o square.o
 	clang $(CFLAGS) -o square square-main.o square.o
-	chmod +x square
 
 square-main.o: square-main.s
 	clang $(CFLAGS) -c -o square-main.o square-main.s
