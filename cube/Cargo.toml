@@ -1,0 +1,12 @@
+[package]
+name = "cube-rs"
+version = "0.1.0"
+edition = "2024"
+build = "src/build.rs"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0"
+
+
